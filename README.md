@@ -81,6 +81,57 @@ Risk registers with scoring algorithms
 The Delivery Metrics Dashboard is a Python/Plotly application that visualizes:
 
 Key Metrics Tracked
+
+### 📸 What This Dashboard Shows
+
+When you run this Python code on your computer, you'll see an interactive web-based dashboard with:
+
+**📊 On-Time Delivery Chart**
+- Weekly tracking of committed vs. completed story points
+- Shows your team's consistency (target: 95%+)
+- Green line = actual performance, Red dashed line = target
+- Hover over points to see exact percentages
+
+**📈 Customer Satisfaction Trends**
+- Monthly CSAT scores plotted over time
+- Dual-axis chart showing both CSAT (%) and NPS score
+- Identifies trends and correlations with delivery quality
+- Goal: Maintain 90%+ CSAT consistently
+
+**🔥 Risk Heatmap**
+- Color-coded matrix showing risks by category and severity
+- Categories: Technical, Resource, Schedule, Quality, Compliance
+- Severity: Critical (🔴), High (🟠), Medium (🟡), Low (🟢)
+- Click cells to see risk counts and drill down
+
+**⚡ Sprint Velocity & Performance**
+- Bar chart comparing planned vs. actual story points
+- Velocity trend line showing team improvement over time
+- Predictability score (your goal: 90%+ confidence)
+- Identifies bottlenecks and capacity issues
+
+**🎯 Quality Metrics**
+- Defects found in QE vs. escaped to production
+- Automation coverage progression (target: 70%+)
+- Test execution time trends
+
+**💡 Key Features:**
+- **Real-time updates** - Refresh data automatically
+- **Interactive** - Click, zoom, filter metrics
+- **Export to PDF** - For executive presentations
+- **Customizable** - Adjust thresholds and alerts
+- **Responsive** - Works on desktop, tablet, mobile
+
+All metrics can be customized with your own data by editing `sample_data.json`.
+
+**Perfect for:**
+- Daily standups (quick team check-in)
+- Weekly delivery reviews (trend analysis)
+- Monthly steering committees (executive summaries)
+- Program health monitoring (early warning system)
+
+*See detailed setup instructions below in the User Guide.*
+
 On-Time Delivery Rate (Target: 95%+)
 Tracks sprint/release completion vs. commitment
 Identifies velocity trends and bottlenecks
@@ -453,7 +504,7 @@ Connect:
 
 LinkedIn: linkedin.com/in/satyapraveen-global-delivery-ai-leader
 Email: satyajason@gmail.com
-Portfolio: satyapraveenvemuri.bolt.host
+Portfolio: [satyapraveenvemuri.bolt.host](https://satyapraveenvemuri.bolt.host/)
 🙏 Acknowledgments
 This framework is the result of:
 
